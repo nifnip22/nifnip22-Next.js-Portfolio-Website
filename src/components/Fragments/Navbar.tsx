@@ -1,23 +1,29 @@
+'use client';
+
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
+
+	const pathname = usePathname();
+
 	return (
 		<>
 			{/* Navbar */}
 			<div className='flex justify-between items-center'>
 				<div className='flex items-center gap-x-20 text-lg text-gray-100'>
-					<Link href={'/'}>
+					<Link href={'/'} className={`link ${pathname === '/' ? 'opacity-100' : 'opacity-60'}`}>
 						<h3>Home</h3>
 					</Link>
-					<Link href={'/about'}>
+					<Link href={'/about'} className={`link ${pathname === '/about' ? 'opacity-100' : 'opacity-60'}`}>
 						<h3>About</h3>
 					</Link>
-					<Link href={'/projects'}>
+					<Link href={'/projects'} className={`link ${pathname === '/projects' ? 'opacity-100' : 'opacity-60'}`}>
 						<h3>Projects</h3>
 					</Link>
 				</div>
