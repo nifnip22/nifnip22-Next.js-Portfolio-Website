@@ -9,7 +9,7 @@ export default function Footer() {
 		<>
 			{/* Footer */}
 			<div className='flex justify-center xl:justify-normal items-center'>
-				<div className='flex flex-col gap-y-8 text-lg text-center text-gray-100'>
+				<div className='flex flex-col gap-y-8 text-lg text-center text-gray-100 opacity-60 hover:opacity-100 transition duration-300'>
 					<p>
 						© 2024, made by <b>nifnip22</b> with Next.js and deploy by <b>Vercel</b>
 					</p>
