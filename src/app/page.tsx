@@ -10,7 +10,7 @@ export default function Home() {
 	return (
 		<>
 			<MainLayout>
-				<div className='h-4/5 flex flex-col 2xl:flex-row justify-between items-center gap-x-20 gap-y-20'>
+				<div className='h-4/5 flex flex-col-reverse 2xl:flex-row justify-between items-center gap-x-20 gap-y-20'>
 					<motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: cubicBezier(0.37, 0.01, 0.25, 0.95) }} className='flex flex-col space-y-8'>
 						<p className='text-gray-100 text-2xl'>Hi, my name is</p>
 						<h1 className='w-[665px] text-8xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-slate-500 to-gray-100'>Hanif Ahmad</h1>

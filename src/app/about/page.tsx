@@ -22,7 +22,7 @@ export default function About() {
 						initial={{ opacity: 0, y: 40 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.6, ease: cubicBezier(0.37, 0.01, 0.25, 0.95), delay: 0.3 }}
-						className='h-full flex flex-nowrap gap-x-20'>
+						className='h-full flex flex-col 2xl:flex-row gap-x-20 gap-y-20'>
 						<Card title='When you start to learn Programming?' subtitle='I started learning web programming since I was in vocational school on 2021' />
 						<Card
 							title='What programming languages & tools do you understand'

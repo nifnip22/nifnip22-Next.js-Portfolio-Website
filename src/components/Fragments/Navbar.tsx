@@ -27,7 +27,7 @@ export default function Navbar() {
 						<h3>Projects</h3>
 					</Link>
 				</div>
-				<div className='flex items-center gap-x-12'>
+				<div className='items-center gap-x-12 hidden xl:flex'>
 					<a href='https://github.com/nifnip22' target='_blank'>
 						<GitHubIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-4xl' />
 					</a>
