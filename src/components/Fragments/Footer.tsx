@@ -8,12 +8,12 @@ export default function Footer() {
 	return (
 		<>
 			{/* Footer */}
-			<div className='flex justify-between items-center'>
-				<div className='flex flex-col gap-y-8 text-lg text-gray-100'>
+			<div className='flex justify-center xl:justify-normal items-center'>
+				<div className='flex flex-col gap-y-8 text-lg text-center text-gray-100'>
 					<p>
 						© 2024, made by <b>nifnip22</b> with Next.js and deploy by <b>Vercel</b>
 					</p>
-					<div className='flex xl:hidden items-center gap-x-6'>
+					<div className='flex xl:hidden items-center justify-center xl:justify-normal gap-x-6'>
 						<a href='https://github.com/nifnip22' target='_blank'>
 							<GitHubIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-4xl' />
 						</a>

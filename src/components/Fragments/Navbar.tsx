@@ -15,8 +15,8 @@ export default function Navbar() {
 	return (
 		<>
 			{/* Navbar */}
-			<div className='flex justify-between items-center'>
-				<div className='flex items-center gap-x-20 text-lg text-gray-100'>
+			<div className='flex justify-center xl:justify-between items-center'>
+				<div className='flex items-center gap-x-20 text-md sm:text-lg text-gray-100'>
 					<Link href={'/'} className={`link ${pathname === '/' ? 'opacity-100' : 'opacity-60'}`}>
 						<h3>Home</h3>
 					</Link>

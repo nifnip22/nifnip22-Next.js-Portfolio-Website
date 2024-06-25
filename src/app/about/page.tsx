@@ -15,7 +15,7 @@ export default function About() {
 						initial={{ opacity: 0, y: 40 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.6, ease: cubicBezier(0.37, 0.01, 0.25, 0.95) }}
-						className='w-[490px] text-8xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-slate-500 to-gray-100'>
+						className='2xl:w-[490px] text-7xl sm:text-8xl text-center 2xl:text-start font-bold bg-gradient-to-r text-transparent bg-clip-text from-slate-500 to-gray-100'>
 						About Me
 					</motion.div>
 					<motion.div
@@ -25,7 +25,7 @@ export default function About() {
 						className='h-full flex flex-col 2xl:flex-row gap-x-20 gap-y-20'>
 						<Card title='When you start to learn Programming?' subtitle='I started learning web programming since I was in vocational school on 2021' />
 						<Card
-							title='What programming languages & tools do you understand'
+							title='Programming languages & tools expertise?'
 							subtitle={
 								<>
 									<div className='icon-container flex flex-row items-center justify-center gap-x-1'>
@@ -119,7 +119,7 @@ export default function About() {
 								</>
 							}
 						/>
-						<Card title='What is your main focus now?' subtitle='I want to learn more about web programming and want to become a Fullstack Web Devaloper' />
+						<Card title="What's your main focus now?" subtitle='I want to learn more about web programming and want to become a Fullstack Web Devaloper' />
 					</motion.div>
 				</div>
 			</MainLayout>
