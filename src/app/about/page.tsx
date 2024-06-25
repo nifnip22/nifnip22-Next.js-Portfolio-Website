@@ -1,16 +1,31 @@
+'use client';
 import Card from '@/components/Fragments/Card';
 import MainLayout from '@/components/Layouts/MainLayout';
+import { motion, cubicBezier } from 'framer-motion';
+import React, { createContext } from 'react';
+
+const MyContext = createContext<any>(null);
 
 export default function About() {
 	return (
 		<>
 			<MainLayout>
 				<div className='h-4/5 flex flex-col justify-start gap-y-20'>
-					<h1 className='w-[490px] text-8xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-slate-500 to-gray-100'>About Me</h1>
-					<div className='h-full flex flex-nowrap gap-x-20'>
+					<motion.div
+						initial={{ opacity: 0, y: 40 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, ease: cubicBezier(0.37, 0.01, 0.25, 0.95) }}
+						className='w-[490px] text-8xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-slate-500 to-gray-100'>
+						About Me
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, y: 40 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6, ease: cubicBezier(0.37, 0.01, 0.25, 0.95), delay: 0.3 }}
+						className='h-full flex flex-nowrap gap-x-20'>
 						<Card title='When you start to learn Programming?' subtitle='I started learning web programming since I was in vocational school on 2021' />
 						<Card
-							title='What programming languages do you understand and can use?'
+							title='What programming languages & tools do you understand'
 							subtitle={
 								<>
 									<div className='icon-container flex flex-row items-center justify-center gap-x-1'>
@@ -105,7 +120,7 @@ export default function About() {
 							}
 						/>
 						<Card title='What is your main focus now?' subtitle='I want to learn more about web programming and want to become a Fullstack Web Devaloper' />
-					</div>
+					</motion.div>
 				</div>
 			</MainLayout>
 		</>
