@@ -1,4 +1,5 @@
 import MainLayout from '@/components/Layouts/MainLayout';
+import Image from 'next/image';
 
 export default function Home() {
 	return (
@@ -12,7 +13,9 @@ export default function Home() {
 							Junior software engineer with a strong passion for web programming. My goal is to develop into a proficient full-stack developer, equipped with a deep understanding of both frontend and backend technologies.
 						</p>
 					</div>
-					<div className='w-3/5 h-full bg-gray-100 opacity-30 rounded-tl-[95px] rounded-br-[95px]'></div>
+					<div className='w-3/5 h-full bg-gray-100/30 rounded-tl-[95px] rounded-br-[95px] overflow-hidden '>
+						<Image src="/profile.jpg" width={500} height={500} alt="" className='object-cover hover:scale-110 transition duration-300' draggable="false"/>
+					</div>
 				</div>
 			</MainLayout>
 		</>
