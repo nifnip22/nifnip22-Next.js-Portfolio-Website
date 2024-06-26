@@ -1,6 +1,6 @@
 import { Viewport } from 'next';
 import './styles.css';
-import { Montserrat } from 'next/font/google';
+import { Raleway } from 'next/font/google';
 
 export const metadata = {
   title: 'Next.js',
@@ -12,7 +12,7 @@ export const viewport: Viewport = {
   width: 'device-width'
 }
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+const raleway = Raleway({ subsets: ['latin'] });
 
 export default function RootLayout({
   children,
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={montserrat.className}>
+    <html lang="en" className={raleway.className}>
       <body>{children}</body>
     </html>
   )

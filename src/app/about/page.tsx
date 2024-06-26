@@ -15,7 +15,7 @@ export default function About() {
 						initial={{ opacity: 0, y: 40 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.6, ease: cubicBezier(0.37, 0.01, 0.25, 0.95) }}
-						className='2xl:w-[490px] text-7xl sm:text-8xl text-center 2xl:text-start font-bold bg-gradient-to-r text-transparent bg-clip-text from-slate-500 to-gray-100'>
+						className='2xl:w-[490px] text-6xl sm:text-8xl text-center 2xl:text-start font-bold bg-gradient-to-r text-transparent bg-clip-text from-slate-500 to-gray-100'>
 						About Me
 					</motion.div>
 					<motion.div
