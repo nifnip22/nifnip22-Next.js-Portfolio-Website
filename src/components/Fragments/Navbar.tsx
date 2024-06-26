@@ -7,9 +7,9 @@ import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { motion } from 'framer-motion';
 
 export default function Navbar() {
-
 	const pathname = usePathname();
 
 	return (
@@ -17,13 +17,16 @@ export default function Navbar() {
 			{/* Navbar */}
 			<div className='flex justify-center xl:justify-between items-center'>
 				<div className='flex items-center gap-x-20 text-md sm:text-lg text-gray-100'>
-					<Link href={'/'} className={`link ${pathname === '/' ? 'opacity-100' : 'opacity-60 hover:opacity-100 transition duration-300'}`}>
+					<Link href={'/'} className={`link ${pathname === '/' ? 'relative opacity-100' : 'relative opacity-60 hover:opacity-100 transition duration-300'}`}>
+						{pathname === '/' && <motion.span layoutId='underline' className='absolute left-0 top-full block h-[1px] w-10 bg-gray-100' />}
 						<h3>Home</h3>
 					</Link>
-					<Link href={'/about'} className={`link ${pathname === '/about' ? 'opacity-100' : 'opacity-60 hover:opacity-100 transition duration-300'}`}>
+					<Link href={'/about'} className={`link ${pathname === '/about' ? 'relative opacity-100' : 'relative opacity-60 hover:opacity-100 transition duration-300'}`}>
+						{pathname === '/about' && <motion.span layoutId='underline' className='absolute left-0 top-full block h-[1px] w-10 bg-gray-100' />}
 						<h3>About</h3>
 					</Link>
-					<Link href={'/projects'} className={`link ${pathname === '/projects' ? 'opacity-100' : 'opacity-60 hover:opacity-100 transition duration-300'}`}>
+					<Link href={'/projects'} className={`link ${pathname === '/projects' ? 'relative opacity-100' : 'relative opacity-60 hover:opacity-100 transition duration-300'}`}>
+						{pathname === '/projects' && <motion.span layoutId='underline' className='absolute left-0 top-full block h-[1px] w-10 bg-gray-100' />}
 						<h3>Projects</h3>
 					</Link>
 				</div>
