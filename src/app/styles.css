@@ -3,10 +3,7 @@
 @tailwind utilities;
 
 body {
-	background-image: url(./../../public/image\ 3.png);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: linear-gradient(to right top, #090530, #06133b, #051d46, #032652, #00305d);
 }
 
 .icon-container {

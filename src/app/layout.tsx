@@ -4,7 +4,7 @@ import { Raleway } from 'next/font/google';
 
 export const metadata = {
   title: 'Hanif Ahmad (nifnip22) | Portfolio Website',
-  description: 'Welcome to Hanif Ahmad’s portfolio! Explore projects and skills in web development, data analysis, and software engineering.',
+  description: "Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I'am a Junior Software Devaloper Who Has Expertise in Web Devaloper, Nice to Meet You!",
   keywords: 'Hanif Ahmad, nifnip22, Web Developer, Portfolio, Software Engineer',
   author: 'Hanif Ahmad (nifnip22)',
   charset: 'UTF-8',
