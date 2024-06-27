@@ -12,6 +12,16 @@ export const metadata = {
   charset: 'UTF-8',
   language: 'en-US',
   robots: 'index, follow',
+  ogTitle: 'Hanif Ahmad (nifnip22) | Portfolio Website',
+  ogDescription: "Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I'am a Junior Software Devaloper Who Has Expertise in Web Devaloper, Nice to Meet You!",
+  ogImage: '/profile.jpg',
+  ogUrl: 'https://nifnip22-portfolio.vercel.app/',
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Hanif Ahmad (nifnip22) | Portfolio Website',
+  twitterDescription: 'Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I’am a Junior Software Devaloper Who Has Expertise in Web Devaloper, Nice to Meet You!',
+  twitterImage: '/profile.jpg',
+  twitterSite: '@nifnip22',
 }
 
 export const viewport: Viewport = {
