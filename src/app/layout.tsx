@@ -7,6 +7,8 @@ export const metadata = {
   description: "Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I'am a Junior Software Devaloper Who Has Expertise in Web Devaloper, Nice to Meet You!",
   keywords: 'Hanif Ahmad, nifnip22, Web Developer, Portfolio, Software Engineer',
   author: 'Hanif Ahmad (nifnip22)',
+  url: 'https://nifnip22-portfolio.vercel.app/',
+  image: '/profile.jpg',
   charset: 'UTF-8',
   language: 'en-US',
   robots: 'index, follow',
