@@ -15,7 +15,7 @@ export default function About() {
 						initial={{ opacity: 0, y: 40 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.6, ease: cubicBezier(0.37, 0.01, 0.25, 0.95) }}
-						className='2xl:w-[490px] text-6xl sm:text-8xl text-center 2xl:text-start font-bold bg-gradient-to-r text-transparent bg-clip-text from-slate-500 to-gray-100'>
+						className='2xl:w-[490px] text-6xl sm:text-7xl text-center 2xl:text-start font-bold bg-gradient-to-r text-transparent bg-clip-text from-slate-500 to-gray-100'>
 						About Me
 					</motion.div>
 					<motion.div
@@ -24,15 +24,15 @@ export default function About() {
 						transition={{ duration: 0.6, ease: cubicBezier(0.37, 0.01, 0.25, 0.95), delay: 0.3 }}
 						className='h-full flex flex-col 2xl:flex-row gap-x-20 gap-y-20'>
 						<Card>
-							<h1 className='absolute text-2xl sm:text-4xl text-gray-100 font-semibold leading-relaxed transition-transform duration-300 group-hover:-translate-y-52'>When you start to learn Programming?</h1>
-							<div className='absolute top-36 group-hover:top-0 transition-all duration-300 text-lg sm:text-2xl text-gray-100 leading-relaxed'>
+							<h1 className='absolute text-2xl sm:text-3xl text-gray-100 font-semibold leading-relaxed transition-transform duration-300 group-hover:-translate-y-52'>When you start to learn Programming?</h1>
+							<div className='absolute top-36 group-hover:top-0 transition-all duration-300 text-lg sm:text-xl text-gray-100 leading-relaxed'>
 								I started learning web programming in vocational school back in 2021. Initially, I was introduced to basic concepts like HTML and CSS, which gave me a solid foundation for creating simple web pages. As I
 								progressed, I delved deeper into more complex technologies such as JavaScript, PHP, and etc..
 							</div>
 						</Card>
 						<Card>
-							<h1 className='text-2xl sm:text-4xl text-gray-100 font-semibold leading-relaxed'>Programming languages & tools expertise?</h1>
-							<div className='text-lg sm:text-2xl text-gray-100 leading-relaxed'>
+							<h1 className='text-2xl sm:text-3xl text-gray-100 font-semibold leading-relaxed'>Programming languages & tools expertise?</h1>
+							<div className='text-lg sm:text-xl text-gray-100 leading-relaxed'>
 								<div className='icon-container flex flex-row items-center justify-center gap-x-1'>
 									<div className='icon icon-1'>
 										<svg xmlns='http://www.w3.org/2000/svg' width='3em' height='3em' viewBox='0 0 24 24'>
@@ -127,8 +127,8 @@ export default function About() {
 						// title="What's your main focus now?"
 						// subtitle='My main focus now is to deepen my knowledge in web programming, aiming to become a proficient Fullstack Web Developer. I am also interested in learning programming languages ​​related to data analysis and OOP such as Python, Java, C#, and others.'
 						>
-							<h1 className='absolute text-2xl sm:text-4xl text-gray-100 font-semibold leading-relaxed transition-transform duration-300 group-hover:-translate-y-52'>What is your main focus now?</h1>
-							<div className='absolute top-36 group-hover:top-0 transition-all duration-300 text-lg sm:text-2xl text-gray-100 leading-relaxed'>
+							<h1 className='absolute text-2xl sm:text-3xl text-gray-100 font-semibold leading-relaxed transition-transform duration-300 group-hover:-translate-y-52'>What is your main focus now?</h1>
+							<div className='absolute top-36 group-hover:top-0 transition-all duration-300 text-lg sm:text-xl text-gray-100 leading-relaxed'>
 								My main focus now is to deepen my knowledge in web programming, aiming to become a proficient Fullstack Web Developer. I am also interested in expanding my skill set to include programming languages related
 								to data analysis and object-oriented programming (OOP) such as Python, Java, and C#.
 							</div>

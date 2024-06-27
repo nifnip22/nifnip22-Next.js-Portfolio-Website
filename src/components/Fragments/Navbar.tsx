@@ -16,7 +16,7 @@ export default function Navbar() {
 		<>
 			{/* Navbar */}
 			<div className='flex justify-center xl:justify-between items-center'>
-				<div className='flex items-center gap-x-10 sm:gap-x-20 text-sm sm:text-lg text-gray-100'>
+				<div className='flex items-center gap-x-14 sm:gap-x-20 text-sm sm:text-md text-gray-100'>
 					<Link href={'/'} className={`link ${pathname === '/' ? 'relative opacity-100' : 'relative opacity-60 hover:opacity-100 transition duration-300'}`}>
 						{pathname === '/' && <motion.span layoutId='underline' className='absolute left-0 top-full block h-[1px] w-10 bg-gray-100' />}
 						<h3>Home</h3>
@@ -32,19 +32,19 @@ export default function Navbar() {
 				</div>
 				<div className='items-center gap-x-6 sm:gap-x-12 hidden xl:flex'>
 					<a href='https://github.com/nifnip22' target='_blank'>
-						<GitHubIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-4xl' />
+						<GitHubIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-3xl' />
 					</a>
 					<a href='https://www.linkedin.com/in/hanif-ahmad-18a879303/?trk=opento_sprofile_details' target='_blank'>
-						<LinkedInIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-4xl' />
+						<LinkedInIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-3xl' />
 					</a>
 					<a href='https://www.facebook.com/profile.php?id=100089012786583' target='_blank'>
-						<FacebookIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-4xl' />
+						<FacebookIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-3xl' />
 					</a>
 					<a href='https://www.instagram.com/hnif.am22/' target='_blank'>
-						<InstagramIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-4xl' />
+						<InstagramIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-3xl' />
 					</a>
 					<a href='https://x.com/nifnip22' target='_blank'>
-						<XIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-4xl' />
+						<XIcon className='text-gray-100 opacity-60 hover:opacity-100 hover:scale-125 transition duration-300 text-3xl' />
 					</a>
 				</div>
 			</div>

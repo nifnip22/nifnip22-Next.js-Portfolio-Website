@@ -9,7 +9,7 @@ export default function Footer() {
 		<>
 			{/* Footer */}
 			<div className='flex justify-center xl:justify-normal items-center'>
-				<div className='flex flex-col gap-y-8 text-sm sm:text-lg text-center text-gray-100 opacity-60 hover:opacity-100 transition duration-300 leading-6'>
+				<div className='flex flex-col gap-y-8 text-sm sm:text-md text-center text-gray-100 opacity-60 hover:opacity-100 transition duration-300 leading-6'>
 					<p>
 						© 2024, Designed in <a href="https://figma.com" target='_blank'><b>Figma</b></a>, built with <a href="https://nextjs.org" target='_blank'><b>Next.js</b></a> and <a href="https://tailwindcss.com" target='_blank'><b>Tailwind CSS</b></a>, deployed with <a href="https://vercel.com" target='_blank'><b>Vercel</b></a>
 					</p>
