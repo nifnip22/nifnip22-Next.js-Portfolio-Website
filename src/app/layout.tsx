@@ -4,25 +4,26 @@ import { Raleway } from 'next/font/google';
 
 export const metadata = {
   title: 'Hanif Ahmad (nifnip22) | Portfolio Website',
-  description: "Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I'am a Junior Software Devaloper Who Has Expertise in Web Devaloper, Nice to Meet You!",
+  description: "Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I'am a Junior Software Developer Who Has Expertise in Web Developer, Nice to Meet You!",
   keywords: 'Hanif Ahmad, nifnip22, Web Developer, Portfolio, Software Engineer',
   author: 'Hanif Ahmad (nifnip22)',
   url: 'https://nifnip22-portfolio.vercel.app/',
-  image: '/profile.jpg',
+  image: 'https://nifnip22-portfolio.vercel.app/profile.jpg',
   charset: 'UTF-8',
   language: 'en-US',
   robots: 'index, follow',
   ogTitle: 'Hanif Ahmad (nifnip22) | Portfolio Website',
-  ogDescription: "Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I'am a Junior Software Devaloper Who Has Expertise in Web Devaloper, Nice to Meet You!",
-  ogImage: '/profile.jpg',
+  ogDescription: "Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I'am a Junior Software Developer Who Has Expertise in Web Developer, Nice to Meet You!",
+  ogImage: 'https://nifnip22-portfolio.vercel.app/profile.jpg',
   ogUrl: 'https://nifnip22-portfolio.vercel.app/',
   ogType: 'website',
   twitterCard: 'summary_large_image',
+  twitterUrl: 'https://nifnip22-portfolio.vercel.app/',
   twitterTitle: 'Hanif Ahmad (nifnip22) | Portfolio Website',
-  twitterDescription: 'Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I’am a Junior Software Devaloper Who Has Expertise in Web Devaloper, Nice to Meet You!',
-  twitterImage: '/profile.jpg',
+  twitterDescription: 'Hi, My Name is Hanif Ahmad and Welcome to nifnip22’s First Portfolio Website! I’am a Junior Software Developer Who Has Expertise in Web Developer, Nice to Meet You!',
+  twitterImage: 'https://nifnip22-portfolio.vercel.app/profile.jpg',
   twitterSite: '@nifnip22',
-}
+};
 
 export const viewport: Viewport = {
   initialScale: 1,
