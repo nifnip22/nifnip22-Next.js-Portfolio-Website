@@ -11,7 +11,7 @@ export default function Footer() {
 			<div className='flex justify-center xl:justify-normal items-center'>
 				<div className='flex flex-col gap-y-8 text-sm sm:text-lg text-center text-gray-100 opacity-60 hover:opacity-100 transition duration-300 leading-6'>
 					<p>
-						© 2024, Designed in <b>Figma</b>, built with <b>Next.js</b> and <b>Tailwind CSS</b>, deployed with <b>Vercel</b>
+						© 2024, Designed in <a href="https://figma.com" target='_blank'><b>Figma</b></a>, built with <a href="https://nextjs.org" target='_blank'><b>Next.js</b></a> and <a href="https://tailwindcss.com" target='_blank'><b>Tailwind CSS</b></a>, deployed with <a href="https://vercel.com" target='_blank'><b>Vercel</b></a>
 					</p>
 					<div className='flex xl:hidden items-center justify-center xl:justify-normal gap-x-6'>
 						<a href='https://github.com/nifnip22' target='_blank'>

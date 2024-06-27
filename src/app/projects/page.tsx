@@ -20,7 +20,7 @@ export default function Projects() {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.6, ease: cubicBezier(0.37, 0.01, 0.25, 0.95), delay: 0.3 }}
 						className='h-full flex flex-col 2xl:flex-row gap-x-20 gap-y-20'>
-						<ProjectCard />
+						<ProjectCard img='/project_img/project-1.png' title='Portfolio Website Project' url='' githuburl='https://github.com/nifnip22/nifnip22-Next.js-Portfolio-Website'/>
 					</motion.div>
 				</div>
 			</MainLayout>
